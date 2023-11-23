@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-cd   /home/ubuntu/recipe-BE
+cd   /home/ubuntu/recipe_BE
 
 
 echo ">>> pip install ----------------------"
