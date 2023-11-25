@@ -1,4 +1,3 @@
-
 echo ">>> set env --------------------------"
 export FLASK_APP=app
 export REDIS_HOST=redis
