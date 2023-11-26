@@ -5,6 +5,7 @@ from datetime import timedelta
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
+SQLALCHEMY_DATABASE_URI = "https://hwan515.synology.me:15432/"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
