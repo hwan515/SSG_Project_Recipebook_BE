@@ -40,3 +40,5 @@ urllib3==2.0.7
 Werkzeug==3.0.0
 WTForms==3.1.0
 zipp==3.17.0
+mysql-connector-python==8.0.28
+
