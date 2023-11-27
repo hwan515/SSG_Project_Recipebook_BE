@@ -20,6 +20,8 @@ chmod +x /home/ubuntu/recipe_BE/scripts/env.sh
 cd /home/ubuntu/recipe_BE/scripts
 source ./env.sh
 
+
+
 # cd   /home/ubuntu/recipe_BE
 
 # flask db init
