@@ -23,4 +23,4 @@ source ./env.sh
 cd   /home/ubuntu/recipe_BE
 
 echo ">>> start server ---------------------"
-flask run --host=0.0.0.0 &
+nohup flask run --host=0.0.0.0 > log.txt 2>&1 &
