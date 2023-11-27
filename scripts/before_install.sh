@@ -1,6 +1,6 @@
 #!/bin/bash
 
-var=$(ps -ef | grep 'gunicorn' | grep -v 'grep')
+var=$(ps -ef | grep 'flask run' | grep -v 'grep')
 pid=$(echo ${var} | cut -d " " -f2)
 if [ -n "${pid}" ]
 then 
