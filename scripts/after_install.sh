@@ -26,5 +26,5 @@ cd   /home/ubuntu/recipe_BE
 # flask db migrate
 # flask db upgrade
 
-echo ">>> start server ---------------------"
-nohup flask run --host=0.0.0.0 > log.txt 2>&1 &
+# echo ">>> start server ---------------------"
+# nohup flask run --host=0.0.0.0 > log.txt 2>&1 &
