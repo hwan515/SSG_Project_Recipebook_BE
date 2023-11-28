@@ -2,7 +2,7 @@
 
 var=$(ps -ef | grep 'gunicorn' | grep -v 'grep')
 pid1=$(echo "${var}" | cut -d " " -f2)
-pid2=$(echo "${var}" | cut -d " " -f16
+pid2=$(echo "${var}" | cut -d " " -f16)
 
 if [ -n "${pid1}" ] && [ -n "${pid2}" ]; then
     sudo kill -9 "${pid1} , ${pid2}"
