@@ -22,6 +22,10 @@ def signup():
     hashed_password = bcrypt.generate_password_hash(user['password']).decode('utf-8')
     email = user['email']
 
+    print(username)
+    print(hashed_password)
+    print(email)
+
     # 중복 가입 조회
     if User.query.filter_by(username=username).one_or_none():
         return jsonify({
