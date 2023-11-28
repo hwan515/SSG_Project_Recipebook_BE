@@ -27,6 +27,6 @@ cd   /home/ubuntu/recipe_BE
 # flask db upgrade
 
 echo ">>> start server ---------------------"
-unicorn --bind 0.0.0.0:5000 --timeout 90 "app:create_app()" > /dev/null 2> /home/ubuntu/gunicorn.log </dev/null &
+gunicorn --bind 0.0.0.0:5000 --timeout 90 "app:create_app()" > /dev/null 2> /home/ubuntu/gunicorn.log </dev/null &
 #gunicorn --bind 0.0.0.0:5000 --timeout 90 "app:create_app()" > /home/ubuntu/gunicorn.log 2>&1 &
 
