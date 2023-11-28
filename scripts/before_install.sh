@@ -12,5 +12,7 @@ else
     echo "gunicorn processes are not running."
 fi
 
+rm -rf /home/ubuntu/gunicorn.log
+
 rm -rf /home/ubuntu/recipe_BE
 mkdir  /home/ubuntu/recipe_BE
