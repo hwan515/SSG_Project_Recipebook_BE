@@ -11,7 +11,7 @@ bp = Blueprint('members', __name__, url_prefix='/members')
 
 @bp.route('/test')
 def test():
-    return "test V3"
+    return "test V4"
 
 # 회원가입
 @bp.route('/forms', methods=['POST'])
