@@ -17,8 +17,7 @@ chown -R ubuntu /home/ubuntu/recipe_BE
 
 echo ">>> set env --------------------------"
 chmod +x /home/ubuntu/recipe_BE/scripts/env.sh
-cd /home/ubuntu/recipe_BE/scripts
-source ./env.sh
+source /home/ubuntu/recipe_BE/scripts/env.sh
 
 cd   /home/ubuntu/recipe_BE
 
